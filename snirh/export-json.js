@@ -1,7 +1,6 @@
-const router = require("express").Router();
-const fetch = (...args) =>
-  import('node-fetch').then(({ default: fetch }) => fetch(...args));
-require('dotenv').config();
+import express from "express";
+import { Router } from "express";
+import dotenv from 'dotenv';
 
 
 // bollinger technical
