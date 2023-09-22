@@ -10,7 +10,7 @@ app.get('/', async (req, res) => {
 });
 
 app.get('/exportacao-json', async (req, res) => {
-
+  console.log('exportacao-json')
   // token
   const token = process.env['SNIRH_TOKEN'];
 
